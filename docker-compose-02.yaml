@@ -1,0 +1,6 @@
+version: "3.7"
+services:
+  volume_example_compose_02:
+    image: volume_example:v1
+    volumes:
+      - /tmp/inside_directory_mapped_to_outside_02:/inside_directory
